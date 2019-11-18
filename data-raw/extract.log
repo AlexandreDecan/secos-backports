@@ -1,0 +1,12 @@
+Extracting data for NPM, this could take some time...
+Loading data in memory
+.. 6773910 versions and 80571841 dependencies loaded
+Filtering dependencies based on "kind"
+.. 33301899 remaining dependencies
+Removing unknown packages
+.. 924059 known packages
+.. 33224902 remaining dependencies
+Exporting to compressed csv
+Deleting temporary files
+
+
