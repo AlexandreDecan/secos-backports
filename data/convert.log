@@ -1,0 +1,16 @@
+Loading releases for NPM
+Removing spam packages from npm
+... dropped 22617 packages and 50610 versions
+Converting versions to semver syntax
+... 11350022 releases converted
+... dropped 0 non-compliant versions
+... dropped 1966616 prereleases and duplicated versions
+Ordering releases by version and date
+... merging results
+Persisting data on disk
+
+Loading dependencies for NPM
+Filtering dependencies based on known packages and releases
+... dropped 296564 dependencies (unknown target)
+... dropped 14118533 dependencies (unknown source)
+Persisting data on disk
