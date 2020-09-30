@@ -1,0 +1,72 @@
+Loading releases and dependencies for Cargo
+.. packages 34769
+.. releases: 183061
+Removing inactive packages
+.. active packages: 19433
+.. their releases: 125680
+Removing unused packages
+.. required packages: 6248
+.. with at least 5 dependents: 1190
+.. distinct dependent packages: 13148
+.. dependencies: 59901
+Identifying backported updates
+Saving set of required packages
+Converting constraints to intervals
+Identify selected releases
+Saving set of dependent packages
+Loading releases and dependencies
+
+
+Loading releases and dependencies for Packagist
+.. packages 180094
+.. releases: 1519374
+Removing inactive packages
+.. active packages: 58620
+.. their releases: 767846
+Removing unused packages
+.. required packages: 13949
+.. with at least 5 dependents: 2335
+.. distinct dependent packages: 36770
+.. dependencies: 93061
+Identifying backported updates
+Saving set of required packages
+Converting constraints to intervals
+Identify selected releases
+Saving set of dependent packages
+
+
+Loading releases and dependencies for NPM
+.. packages 1217677
+.. releases: 9383406
+Removing inactive packages
+.. active packages: 430976
+.. their releases: 5050117
+Removing unused packages
+.. required packages: 78395
+.. with at least 5 dependents: 15644
+.. distinct dependent packages: 247408
+.. dependencies: 1069343
+Identifying backported updates
+Saving set of required packages
+Converting constraints to intervals
+Identify selected releases
+Saving set of dependent packages
+
+
+Loading releases and dependencies for Rubygems
+.. packages 154998
+.. releases: 955572
+Removing inactive packages
+.. active packages: 18791
+.. their releases: 277291
+Removing unused packages
+.. required packages: 3313
+.. with at least 5 dependents: 715
+.. distinct dependent packages: 11237
+.. dependencies: 23991
+Identifying backported updates
+Saving set of required packages
+Converting constraints to intervals
+Identify selected releases
+Saving set of dependent packages
+

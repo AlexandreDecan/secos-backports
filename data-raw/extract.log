@@ -1,3 +1,33 @@
+Extracting data for Cargo, this could take some time...
+Loading data in memory
+.. 195011 versions and 1027098 dependencies loaded
+Filtering dependencies based on "kind"
+.. 885976 remaining dependencies
+Removing unknown packages
+.. 35588 known packages
+.. 885769 remaining dependencies
+Loading projects with repository
+.. 26190 repositories
+Removing unknown packages
+.. 26136 remaining repositories
+Exporting to compressed csv
+Deleting temporary files
+
+Extracting data for Packagist, this could take some time...
+Loading data in memory
+.. 1766576 versions and 8987260 dependencies loaded
+Filtering dependencies based on "kind"
+.. 6173133 remaining dependencies
+Removing unknown packages
+.. 208469 known packages
+.. 5501720 remaining dependencies
+Loading projects with repository
+.. 291133 repositories
+Removing unknown packages
+.. 196925 remaining repositories
+Exporting to compressed csv
+Deleting temporary files
+
 Extracting data for NPM, this could take some time...
 Loading data in memory
 .. 11400714 versions and 154914771 dependencies loaded
@@ -6,5 +36,24 @@ Filtering dependencies based on "kind"
 Removing unknown packages
 .. 1273579 known packages
 .. 63142904 remaining dependencies
+Loading projects with repository
+.. 775460 repositories
+Removing unknown packages
+.. 774240 remaining repositories
+Exporting to compressed csv
+Deleting temporary files
+
+Extracting data for Rubygems, this could take some time...
+Loading data in memory
+.. 1055874 versions and 5732633 dependencies loaded
+Filtering dependencies based on "kind"
+.. 2757763 remaining dependencies
+Removing unknown packages
+.. 161457 known packages
+.. 2754420 remaining dependencies
+Loading projects with repository
+.. 106836 repositories
+Removing unknown packages
+.. 106767 remaining repositories
 Exporting to compressed csv
 Deleting temporary files

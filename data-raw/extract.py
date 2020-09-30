@@ -3,7 +3,7 @@ import subprocess
 import os
 
 # Selected ecosystem names (see libraries.io)
-ECOSYSTEMS = ['NPM']
+ECOSYSTEMS = ['Cargo', 'Packagist', 'NPM', 'Rubygems']
 # Version of the libraries.io dataset
 LIBRARIESIO_VERSION = '1.6.0-2020-01-12'
 # Location of the libraries.io dataset
@@ -28,7 +28,10 @@ DEPENDENCY_FIELDS = {
 }
 # Kind of dependencies to keep 
 DEPENDENCY_KEPT_KINDS = {
+    'Cargo': ['normal', 'runtime'],
+    'Packagist': ['runtime'],
     'NPM': ['runtime'],
+    'Rubygems': ['runtime'],
 }
 # Optimization purposes:
 DATA_TYPES = {

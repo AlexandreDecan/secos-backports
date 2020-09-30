@@ -11,7 +11,7 @@ import pandas
 import tqdm
 import os
 
-ECOSYSTEMS = ['NPM']
+ECOSYSTEMS = ['Cargo', 'Packagist', 'NPM', 'Rubygems']
 
 if __name__ == '__main__':
     for ecosystem in ECOSYSTEMS:

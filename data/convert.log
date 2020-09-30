@@ -1,3 +1,37 @@
+Loading releases for Cargo
+Converting versions to semver syntax
+... 195009 releases converted
+... dropped 0 non-compliant versions
+... dropped 11948 prereleases and duplicated versions
+Ordering releases by version and date
+... merging results
+Persisting data on disk
+
+Loading dependencies for Cargo
+Filtering dependencies based on known packages and releases
+... dropped 3243 dependencies (unknown target)
+... dropped 86575 dependencies (unknown source)
+Persisting data on disk
+
+
+Loading releases for Packagist
+Removing spam packages from packagist
+... dropped 23 packages and 1159 versions
+Converting versions to semver syntax
+... 1765417 releases converted
+... dropped 136485 non-compliant versions
+... dropped 109558 prereleases and duplicated versions
+Ordering releases by version and date
+... merging results
+Persisting data on disk
+
+Loading dependencies for Packagist
+Filtering dependencies based on known packages and releases
+... dropped 67066 dependencies (unknown target)
+... dropped 707749 dependencies (unknown source)
+Persisting data on disk
+
+
 Loading releases for NPM
 Removing spam packages from npm
 ... dropped 22617 packages and 50610 versions
@@ -13,4 +47,20 @@ Loading dependencies for NPM
 Filtering dependencies based on known packages and releases
 ... dropped 296564 dependencies (unknown target)
 ... dropped 14118533 dependencies (unknown source)
+Persisting data on disk
+
+
+Loading releases for Rubygems
+Converting versions to semver syntax
+... 1055872 releases converted
+... dropped 22005 non-compliant versions
+... dropped 78295 prereleases and duplicated versions
+Ordering releases by version and date
+... merging results
+Persisting data on disk
+
+Loading dependencies for Rubygems
+Filtering dependencies based on known packages and releases
+... dropped 25585 dependencies (unknown target)
+... dropped 331839 dependencies (unknown source)
 Persisting data on disk
