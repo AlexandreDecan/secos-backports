@@ -164,6 +164,8 @@ if __name__ == '__main__':
                         suffixes=('', '_next')
                     )
                     .assign(rank_next=lambda d: d['rank_next'] + 1)
+                    # Put a very distant date if no next rank exists
+                    .fillna({'date_next': pandas.to_datetime('1900-01-01')})
                     # Take closest date
                     .assign(backported_from=lambda d:
                         d['rank_previous'].where(abs(d['date'] - d['date_previous']) <= abs(d['date'] - d['date_next']), d['rank_next'])
