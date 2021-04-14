@@ -1,6 +1,6 @@
 This repository is the replication package of our study on backported updates. 
 
-The list of dependencies required to execute the scripts is contained in `requirements.txt', and can be installed as usual with `pip install -r requirements.txt`. It is strongly advice to create an isolated environment with Python 3.5+ before running this command. 
+The list of dependencies required to execute the scripts is contained in `requirements.txt', and can be installed as usual with `pip install -r requirements.txt`. It is strongly advice to create an isolated environment with Python 3.9 before running this command. 
 
 The scripts are available in the `notebooks/` directory, and are expected to be open and executed with `jupyter`. 
 The data required for these notebooks are all provided in this repository. They correspond to "data/X-required.csv.gz" and "data/X-dependents.csv.gz" where X is the name of a package distribution. 
