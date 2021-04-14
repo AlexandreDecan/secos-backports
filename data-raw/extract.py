@@ -7,7 +7,7 @@ ECOSYSTEMS = ['Cargo', 'Packagist', 'NPM', 'Rubygems']
 # Version of the libraries.io dataset
 LIBRARIESIO_VERSION = '1.6.0-2020-01-12'
 # Location of the libraries.io dataset
-PATH_TO_LIBRARIESIO = '/data/libio1.6/'
+PATH_TO_LIBRARIESIO = '/data/librariesio/1.6/'
 
 # Fields to keep for "version-[...].csv"
 VERSION_FIELDS = {
