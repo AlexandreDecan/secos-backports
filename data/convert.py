@@ -29,7 +29,7 @@ PARSERS = {
 if __name__ == '__main__':
     for ecosystem in ECOSYSTEMS:
         # Skip ecosystems for which we already have data
-        if os.path.isfile('./{}-releases.csv.gz'.format(ecosystem)) and os.path.isfile('./{}-dependencies.csv.gz'.format(ecosystem)) and os.path.isfile('./{}-repositories.csv.gz'.format(ecosystem)):
+        if os.path.isfile('./{}-releases.csv.gz'.format(ecosystem)) and os.path.isfile('./{}-dependencies.csv.gz'.format(ecosystem)):
             print('Skipping {}...'.format(ecosystem))
             continue
             
